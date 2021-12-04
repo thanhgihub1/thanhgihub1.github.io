@@ -1,0 +1,90 @@
+/* Mobile & Tablet */
+
+@media (max-width: 1023px) {
+  .hide-on-mobile-tablet {
+      display: none;
+  }
+
+  .content__section-body-item{
+    margin-top: 8px;
+  }
+  .content__Beaches-banner-countdown{
+    width: 100%;
+    }
+
+
+  .footer__wrapper{
+    width: 100%;
+  } 
+  .footer__input{
+    width: 100%;
+    display: flex;
+  }
+
+  .footer-input-btn{
+    width: 80%;
+  }
+  .footer-send-btn{
+    width: 20%;
+  }
+  .footer__header{
+    margin-bottom: 12px;
+  }
+  .PACKAGES__icon-view-san,
+  .PACKAGES__icon-view-hongkong,
+ .PACKAGES__icon-view{
+   top: 377px;
+ }
+ .footer__body-content{
+   margin-bottom: 30px;
+ }
+ .center {
+   text-align: center;
+ }
+ .content__Beaches-book-btn{
+   width: 100%;
+ }
+ .content__Beaches-bottom-item{
+   margin-bottom: 8px;
+   border: 1px solid #f5f5f5;
+   padding: 10px;
+ }
+
+
+} 
+
+/* tablet */
+
+@media (min-width: 740px ) and (max-width: 1023px ) {
+  .hide-on-tablet {
+      display: none;
+  }
+ 
+}
+
+
+/* mobile */
+@media (max-width: 739px) {
+  .hide-on-mobile {
+      display: none;
+  }
+  .content__Beaches-container{
+    padding: 12px;
+  }
+  .PACKAGES__icon-view-san,
+  .PACKAGES__icon-view-hongkong,
+  .PACKAGES__icon-view{
+   top: 234px;
+ }
+
+ .packages__buy-tickets-btn{
+   width: 100%;
+   text-align: center;
+ }
+
+ .footer__header{
+   text-align: center;
+ }
+} 
+
+
